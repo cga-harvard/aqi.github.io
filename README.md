@@ -16,15 +16,15 @@ _github-pages-challenge-cga-harvard.aqi.cga.harvard.edu
 ```
 in the DNS.
 
-1.  Create a repository named aqi.github.io  The repository name must end in github.io
+2.  Create a repository named aqi.github.io  The repository name must end in github.io
 
-1.  Create a file called `CNAME` with the contents
+3.  Create a file called `CNAME` with the contents
 ```
 aqi.cga.harvard.edu
 ```
 
 
-1.  Place this file in the top level directory:
+4.  Place this file in the top level directory:
 ```
 <!DOCTYPE html>
 <html>
@@ -39,10 +39,10 @@ aqi.cga.harvard.edu
 </html>
 ```
 
-1.  Go to your repo’s `Settings > Pages`.  Under "Branch" use the first dropdown to choose "main", then click "Save."
+5.  Go to your repo’s `Settings > Pages`.  Under "Branch" use the first dropdown to choose "main", then click "Save."
 
-1.  Set your DNS CNAME in the HUIT DNS for `aqi.cga.harvard.edu` to point to `cga-harvard.github.io`  This has to be done before configuring your custom domain.
+6.  Set your DNS CNAME in the HUIT DNS for `aqi.cga.harvard.edu` to point to `cga-harvard.github.io`  This has to be done before configuring your custom domain.
 
-1.  Under “Custom domain”, enter `aqi.cga.harvard.edu` and save.
+7.  Under “Custom domain”, enter `aqi.cga.harvard.edu` and save.
 
-1.  Enable `Enforce HTTPS` once the custom domain is recognized.
+8.  Enable `Enforce HTTPS` once the custom domain is recognized.
